@@ -1,0 +1,99 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.todo-wrapper {
+    padding: 2px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.appbar {
+    background-color: #333;
+}
+
+.appbar-title {
+    flex-grow: 1;
+    font-weight: 500;
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    padding-top: 4rem;
+}
+
+.todo-section {
+    margin-top: 4rem;
+}
+
+.todo-title {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+}
+
+.empty-state-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.empty-state-text {
+    color: gray;
+}
+
+.todo-list {
+    padding: 0;
+}
+
+.divider {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+/*-------------------- Add Todo style ------------------------------*/
+
+.textField {
+    height: 55px;
+    border-radius: 8px;
+    padding: 0px 12px;
+}
+
+.textField-error .MuiOutlinedInput-root fieldset {
+    border-color: red !important;
+}
+
+.textField:hover .MuiOutlinedInput-root fieldset {
+    border-color: #3f51b5;
+}
+
+.textField-label {
+    color: grey;
+}
+
+.button {
+    height: 55px;
+    padding: 0px 20px;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #303f9f;
+}
